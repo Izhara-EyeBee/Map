@@ -132,6 +132,8 @@ svg path:hover{fill:#2196f3}
 </svg>
 
 
+<div id="info">Click a district.</div>
+
 <script>
 const districtLinks = {
 "LK-11":"https://drive.google.com/drive/folders/100ubLHuPI0Tl9PgUND_3-LskHCn8MQxO?usp=drive_link",
@@ -174,5 +176,3 @@ document.querySelectorAll('svg path').forEach(p=>{
 </script>
 </div><script>const d=document.getElementById('district-name');document.querySelectorAll('svg path').forEach(p=>{p.onmouseenter=()=>d.textContent=p.getAttribute('title')||'';p.onmouseleave=()=>d.textContent='';});</script></body>
 </html>
-
-
